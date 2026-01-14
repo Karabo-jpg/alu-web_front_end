@@ -415,7 +415,7 @@ template {
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.02rem;
     --nav-item-margin: 0 0 0 4rem;
-    --nav-link-padding: 0.5rem 0;
+    --nav-link-padding: 0.5rem 1rem;
     --nav-link-color-hover: var(--color-primary);
     --section-tagline-margin: 0;
 }
@@ -492,9 +492,9 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav .nav-item .nav-link {
+.nav .nav-link {
     display: block;
-    padding: var(--nav-link-padding);
+    padding: 0.5rem 1rem;
 }
 
 .nav .nav-item .nav-link:hover {
@@ -507,7 +507,7 @@ a:active {
     margin-right: auto;
 }
 
-.row {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -584,6 +584,9 @@ a:active {
 
 .footer {
     padding: var(--footer-padding);
+}
+
+.footer ul {
     text-align: right;
 }
 
