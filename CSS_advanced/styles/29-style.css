@@ -693,7 +693,7 @@ ul.row::after {
     text-align: right;
 }
 
-.footer address {
+.footer-address {
     color: var(--text-color);
 }
 
