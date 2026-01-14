@@ -215,6 +215,7 @@ button,
 [type="reset"],
 [type="submit"] {
     -webkit-appearance: button;
+    appearance: button;
 }
 
 /**
@@ -315,6 +316,7 @@ textarea {
 
 [type="search"] {
     -webkit-appearance: textfield;
+    appearance: textfield;
     /* 1 */
     outline-offset: -2px;
     /* 2 */
@@ -507,7 +509,7 @@ a:active {
     margin-right: auto;
 }
 
-.row {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -571,5 +573,8 @@ a:active {
 
 .footer {
     padding: var(--footer-padding);
+}
+
+.footer ul {
     text-align: right;
 }
