@@ -494,7 +494,7 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding: var(--nav-link-padding);
+    padding: 0.5rem 0;
 }
 
 .nav .nav-link:hover {
