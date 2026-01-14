@@ -416,7 +416,6 @@ template {
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-link-padding: 0.5rem 1rem;
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
     --button-display: inline-block;
@@ -538,9 +537,9 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
     display: block;
-    padding: var(--nav-link-padding);
+    padding: 0.5rem 1rem;
 }
 
 .nav .nav-item .nav-link {
