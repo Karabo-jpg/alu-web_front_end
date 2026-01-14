@@ -413,10 +413,11 @@ template {
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 0.02rem;
-    --nav-item-margin: 0 0 0 4rem;
-    --nav-link-padding: 0.5rem 0;
-    --nav-link-color-hover: var(--color-primary);
+    --nav-item-letter-spacing: 0.04rem;
+    --nav-item-display: inline-block;
+    --nav-item-margin: 0 0 3rem 0;
+    --nav-link-padding: 0.5rem 1rem;
+    --nav-item-link-hover: var(--color-primary);
 }
 
 *,
@@ -487,17 +488,17 @@ a:active {
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    display: inline-block;
+    display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
 
-.nav .nav-item .nav-link {
+.nav .nav-link {
     display: block;
     padding: var(--nav-link-padding);
 }
 
-.nav .nav-item .nav-link:hover {
-    color: var(--nav-link-color-hover);
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
 }
 
 .container {
