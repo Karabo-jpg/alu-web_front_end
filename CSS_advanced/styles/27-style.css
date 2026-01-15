@@ -566,6 +566,10 @@ a:active {
     color: var(--color-primary);
 }
 
+.card-services .card-title {
+    margin: 0;
+}
+
 .card-services {
     margin: 0;
 }
@@ -660,6 +664,6 @@ a:active {
     display: block;
 }
 
-.social-link svg {
+.social-link>svg {
     fill: var(--text-color);
 }
