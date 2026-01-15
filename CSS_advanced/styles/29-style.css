@@ -418,6 +418,15 @@ template {
     --nav-link-padding: 0.5rem 1rem;
     --nav-link-color-hover: var(--color-primary);
     --section-tagline-margin: 0;
+    --button-display: inline-block;
+    --button-padding: 1.5rem 3rem;
+    --button-border: 0.2rem solid var(--color-primary);
+    --button-color: var(--color-black);
+    --button-text-decoration: none;
+    --button-font-size: var(--font-size-large);
+    --button-hover-color: var(--color-white);
+    --button-hover-text-decoration: none;
+    --button-hover-background: var(--color-primary);
 }
 
 *,
@@ -466,6 +475,21 @@ a:hover {
 
 a:active {
     background-color: var(--color-light-grey);
+}
+
+.button {
+    display: var(--button-display);
+    padding: var(--button-padding);
+    border: var(--button-border);
+    color: var(--button-color);
+    text-decoration: var(--button-text-decoration);
+    font-size: var(--button-font-size);
+}
+
+.button:hover {
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background-color: var(--button-hover-background);
 }
 
 .visually-hidden {
@@ -542,6 +566,42 @@ ul.row {
     color: var(--color-primary);
 }
 
+.card-services .card-title {
+    margin: 0;
+}
+
+.card-services {
+    margin: 0;
+}
+
+.card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+}
+
+.card-services a:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
+}
+
+.card-testimonial {
+    text-align: center;
+}
+
+.card-testimonial img {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.card-testimonial article {
+    display: block;
+    padding: 2rem;
+    color: var(--color-primary);
+}
+
 [data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
@@ -550,6 +610,14 @@ ul.row {
 
 .section {
     padding: var(--section-padding);
+}
+
+.section-hero {
+    background-size: 75rem 70rem;
+}
+
+.section-hero .section-body {
+    padding: 10rem 25rem 2rem 15rem;
 }
 
 .section-header {
@@ -599,6 +667,6 @@ ul.row {
 }
 
 /* Dark Theme Fixes */
-.social-link > svg {
+.social-link>svg {
     fill: var(--text-color);
 }
