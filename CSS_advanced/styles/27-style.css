@@ -623,7 +623,7 @@ a:active {
     background-image: url(../images/pic-hero-banner.jpg);
     background-repeat: no-repeat;
     background-position: 75% 0;
-    background-size: 80rem 44rem;
+    background-size: cover;
 }
 
 .section-hero .section-title {
