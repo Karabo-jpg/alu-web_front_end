@@ -641,7 +641,10 @@ a:active {
 }
 
 .section-hero {
-    background-size: 90rem 44rem;
+    background-image: url(../images/pic-hero-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 75% 0;
+    background-size: 80rem 44rem;
 }
 
 .section-hero .section-title {
