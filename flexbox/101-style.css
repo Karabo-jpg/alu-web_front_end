@@ -1,0 +1,41 @@
+/* Task 16 - Timemachine boxes! */
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+.box1 {
+    background-color: #2ecc71;
+    flex: 1;
+}
+
+.box2 {
+    background-color: #3498db;
+    flex: 1;
+}
+
+.box3 {
+    background-color: #34495e;
+    flex: 2;
+}
+
+.box4 {
+    background-color: #e74c3c;
+    flex: 1;
+}
+
+.box5 {
+    background-color: #e67e22;
+    flex: 1;
+}
