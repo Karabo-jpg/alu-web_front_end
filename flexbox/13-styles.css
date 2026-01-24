@@ -842,7 +842,7 @@ ul.row {
 }
 
 .post-meta-list [class*='post-meta-']:last-child {
-    border: 0;
+    border-bottom: 0;
     margin-bottom: 3rem;
 }
 
