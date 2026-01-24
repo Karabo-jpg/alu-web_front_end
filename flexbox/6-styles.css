@@ -385,7 +385,7 @@ ul.row {
 }
 
 /* Navbar
-                      ============================= */
+                  ============================= */
 
 .nav {
     margin: 0;
@@ -406,6 +406,10 @@ ul.row {
     display: block;
     padding: 0.5rem 0;
     position: relative;
+}
+
+.nav .nav-item+.nav-item {
+    margin: var(--nav-item-margin);
 }
 
 .nav .nav-link:hover {
