@@ -408,6 +408,10 @@ ul.row {
     position: relative;
 }
 
+.nav .nav-item+.nav-item {
+    margin: var(--nav-item-margin);
+}
+
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
     text-decoration: none;
