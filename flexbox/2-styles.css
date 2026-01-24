@@ -700,9 +700,8 @@ ul.row {
     fill: var(--text-color);
 }
 
-/* Task 2: Reverse order Latest news cards */
-/* Section Latest news
-   ============================= */
+/* Section Latest news ============================= */
+
 .section-latest-news .row {
     flex-direction: row-reverse;
 }
