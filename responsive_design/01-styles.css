@@ -1,3 +1,4 @@
+
 /* SUMMARY
 1. GLOBAL
 2. LAYOUT
@@ -496,7 +497,7 @@
   }
   
   .card-services a {
-    display: block;
+[O    display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
   }
@@ -858,3 +859,4 @@
     cursor: text;
     margin: 0 1rem;
   }
+  
